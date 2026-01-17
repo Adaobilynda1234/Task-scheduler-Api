@@ -1,3 +1,6 @@
+
+-- database/schema.sql
+
 -- Create database
 CREATE DATABASE IF NOT EXISTS task_scheduler;
 USE task_scheduler;
