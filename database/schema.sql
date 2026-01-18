@@ -1,5 +1,6 @@
 
 -- database/schema.sql
+-- can be used for VS Code extension SQL formatting SQL file 
 
 -- Create database
 CREATE DATABASE IF NOT EXISTS task_scheduler;
