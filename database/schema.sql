@@ -1,4 +1,4 @@
-
+---sql
 -- database/schema.sql
 -- can be used for VS Code extension SQL formatting SQL file 
 
