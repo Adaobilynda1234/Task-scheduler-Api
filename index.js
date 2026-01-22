@@ -73,7 +73,7 @@ db.getConnection()
     // Start server
     app.listen(PORT, () => {
       logger.info(
-        `Server running on port ${PORT} in ${process.env.NODE_ENV} mode`
+        `Server running on port ${PORT} in ${process.env.NODE_ENV} mode`,
       );
     });
   })
@@ -82,7 +82,7 @@ db.getConnection()
     process.exit(1);
   });
 
-// Graceful shutdown
+// system shutdown
 process.on("SIGTERM", () => {
   logger.info("SIGTERM received, shutting down gracefully");
   cronService.stop();
